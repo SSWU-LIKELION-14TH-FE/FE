@@ -1,0 +1,98 @@
+#wrap {
+    width: 1280px;
+    height: 1080px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    background-color: #EAE9EE;
+}
+
+nav {
+    width: 1080px;
+    height: 100px;
+    background-color: #C2C3D6;
+}
+
+main {
+    display: flex;
+}
+
+.main_left {
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+article {
+    width: 980px;
+}
+
+.section01 {
+    display: flex;
+}
+
+.section01_left {
+    width: 250px;
+    height: 440px;
+    background-color: #E1E1F5;
+}
+
+.section01_right>div {
+    width: 730px;
+    height: 220px;
+}
+
+.right_top {
+    background-color: #C0C0FB;
+}
+
+.right_bottom {
+    background-color: #9999EF;
+}
+
+.section02_left {
+    width: 680px;
+    height: 440px;
+    background-image: url(../src/img/week2_ses.png);
+}
+
+.section02 {
+    display: flex;
+}
+
+.section02_right {
+    width: 300px;
+    height: 440px;
+    background-color: #fff;
+}
+
+aside {
+    width: 300px;
+    height: 880px;
+    background-color: #7878D4;
+}
+
+footer {
+    display: flex;
+}
+
+.footer_left,
+.footer_right {
+    width: 200px;
+    height: 100px;
+    background-color: #3A258A;
+}
+
+.footer_center {
+    width: 880px;
+    height: 100px;
+    background-color: #6469CD;
+}
