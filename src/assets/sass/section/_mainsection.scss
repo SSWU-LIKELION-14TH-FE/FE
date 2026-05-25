@@ -107,7 +107,7 @@
             width: 50%;
         }
 
-        div {
+        >div {
             margin-left: 80px;
 
             p {
@@ -208,6 +208,7 @@
         display: flex;
         justify-content: space-between;
         width: 1250px;
+        margin: 0 auto;
 
         >div {
             cursor: pointer;
